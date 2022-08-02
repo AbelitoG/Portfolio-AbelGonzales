@@ -1,0 +1,142 @@
+*
+{box-sizing:border-box;}
+body{
+    background-color: rgb(185, 185, 185);
+}
+body{
+    min-height: 100vh;
+    margin: 0;
+}
+nav ul {
+    display:flex;
+    justify-content: space-between;
+    min-width: 400px;
+    list-style: none;
+    font-size: 25px;
+}
+nav a {
+    color: rgb(0, 103, 143);
+    font-weight: bolder;
+}
+header{
+    display:flex;
+    justify-content: end;
+    
+}
+
+/* bodystarts */
+.main {
+    display: grid;
+    place-content: center;
+    color: rgb(0, 103, 143);
+    padding: 100px;
+    margin: 300px;
+    background-color: antiquewhite;
+    font-size: 200%;
+
+}
+   
+h2{
+    display: flex;
+    place-content: center;
+    color: rgb(0, 103, 143);
+    font-size: 150%;
+}
+p{
+color: aliceblue;
+text-align: center;
+font-size: 115%;
+}
+.img{
+  display: flex;
+  place-content: center;
+  flex-wrap: wrap;
+}
+
+/* projects start */
+
+.projects{
+  display: flex;
+  place-content: center;
+}
+
+
+.card {
+    display: flex;
+    min-width: 300px;
+    max-width: 400px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    padding: 10px;
+    flex: 0 0 100px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .card header {
+    padding: 20px;
+  }
+  
+  .card p {
+    text-align: center;
+  }
+  
+  .card img {
+    width: 100%;
+  }
+  .card-1 {
+    display: flex;
+    min-width: 400px;
+    max-width: 500px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    padding: 10px;
+    flex: 0 0 100px;
+    margin-bottom: 20px;
+  }
+  
+  .card-1 header {
+    padding: 20px;
+  }
+  
+  .card-1 p {
+    text-align: center;
+  }
+  
+  .card-1 img {
+    width: 50%;
+  }
+  @media screen and (max-width: 768px) {
+    main,
+    nav {
+      flex-direction: column;
+    }
+  }
+  
+/* contactstarts */
+.contact {
+    display: flex;
+    place-content: center;
+    
+}
+form{
+    width:250px;
+}
+
+
+input,
+button {
+  width: 250px;
+  margin: 10px;
+  padding: 5px;
+  
+}
+/* fotting starts */
+h3{
+    display: flex;
+    place-content: center;
+    color: rgb(0, 103, 143);
+    padding-top: 50px;
+}
